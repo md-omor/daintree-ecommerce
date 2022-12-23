@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: GreycliffCF_SEMIBOLD;
+    src: url(./shared/fonts/Greycliff_CF/GreycliffCF-DemiBold.otf);
+  }
+  @font-face {
+    font-family: GreycliffCF_BOLD;
+    src: url(./shared/fonts/Greycliff_CF/GreycliffCF-Bold.otf);
+  }
+  @font-face {
+    font-family: GreycliffCF_BLACK;
+    src: url(./shared/fonts/Greycliff_CF/GreycliffCF-ExtraBold.otf);
+  }
+}
