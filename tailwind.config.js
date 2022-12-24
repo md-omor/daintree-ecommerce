@@ -36,10 +36,11 @@ module.exports = {
 
     extend: {
       fontFamily: {
-        black: "CIRCULAR_STD_BLACK",
+        black: "GreycliffCF_BLACK",
         medium: "CIRCULAR_STD_MEDIUM",
+        semibold: "GreycliffCF_SEMIBOLD",
         book: "CIRCULAR_STD_BOOK",
-        bold: "CIRCULAR_STD_BOLD",
+        bold: "GreycliffCF_BOLD",
         jost: ["Jost", "sans-serif"],
         publicSans: ["Public Sans", "sans-serif"],
       },
