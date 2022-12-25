@@ -8,6 +8,14 @@
     src: url(./shared/fonts/Greycliff_CF/GreycliffCF-DemiBold.otf);
   }
   @font-face {
+    font-family: GreycliffCF_NORMAL;
+    src: url(./shared/fonts/Greycliff_CF/GreycliffCF-Regular.otf);
+  }
+  @font-face {
+    font-family: GreycliffCF_MEDIUM;
+    src: url(./shared/fonts/Greycliff_CF/GreycliffCF-Medium.otf);
+  }
+  @font-face {
     font-family: GreycliffCF_BOLD;
     src: url(./shared/fonts/Greycliff_CF/GreycliffCF-Bold.otf);
   }
@@ -15,4 +23,39 @@
     font-family: GreycliffCF_BLACK;
     src: url(./shared/fonts/Greycliff_CF/GreycliffCF-ExtraBold.otf);
   }
+}
+.carousel-root {
+  width: 640px !important;
+}
+
+.thumbs {
+  display: flex;
+  justify-content: center;
+}
+
+.thumb {
+  width: 132px !important;
+}
+
+.control-dots {
+  top: 0;
+  left: -8px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: start;
+  justify-content: center;
+  margin-right: 70px;
+}
+
+.dot {
+  margin-bottom: 10px !important;
+  width: 10px;
+  height: 10px;
+}
+
+.dot.selected {
+  background: linear-gradient(0deg, #ff6b00, #ff6b00),
+    linear-gradient(0deg, #1e1e1e, #1e1e1e), #1e1e1e !important;
+  box-shadow: none !important;
 }
