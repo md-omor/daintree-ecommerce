@@ -8,28 +8,28 @@ const ProductSlider = () => {
       <Carousel interval="500" transitionTime="500" showArrows={false}>
         <div className="">
           <img
-            src="/images/headphone1.svg"
+            src="/images/product1.svg"
             alt="headphone"
             className="!w-[550px] bg-[#F5F5F7] rounded-xl "
           />
         </div>
         <div>
           <img
-            src="/images/headphone1.svg"
+            src="/images/product2.svg"
             alt="headphone"
             className="!w-[550px] bg-[#F5F5F7] rounded-xl "
           />
         </div>
         <div>
           <img
-            src="/images/headphone1.svg"
+            src="/images/product3.svg"
             alt="headphone"
             className="!w-[550px] bg-[#F5F5F7] rounded-xl "
           />
         </div>
         <div>
           <img
-            src="/images/headphone1.svg"
+            src="/images/product4.svg"
             alt="headphone"
             className="!w-[550px] bg-[#F5F5F7] rounded-xl "
           />
