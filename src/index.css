@@ -37,6 +37,15 @@
   width: 132px !important;
 }
 
+.thumb.selected {
+  border: 2px solid #1e1e1e !important;
+  border-radius: 0.75rem;
+  -webkit-border-radius: 0.75rem;
+  -moz-border-radius: 0.75rem;
+  -ms-border-radius: 0.75rem;
+  -o-border-radius: 0.75rem;
+}
+
 .control-dots {
   top: 0;
   left: -8px;
@@ -58,4 +67,8 @@
   background: linear-gradient(0deg, #ff6b00, #ff6b00),
     linear-gradient(0deg, #1e1e1e, #1e1e1e), #1e1e1e !important;
   box-shadow: none !important;
+}
+
+.carousel-status {
+  display: none !important;
 }
