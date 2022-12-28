@@ -17,65 +17,6 @@ export const category = [
   },
 ];
 
-export const catelogue = [
-  {
-    categoryImage: "/images/headphone1.svg",
-    title: "JBL Live 660NC",
-    price: "$579.99",
-    mainPrice: "$600.00",
-    rating: 4.9,
-  },
-  {
-    categoryImage: "/images/headphone2.svg",
-    title: "Sony WH-1000XM4",
-    price: "$239.99",
-    mainPrice: "$250.00",
-    rating: 4.9,
-  },
-  {
-    categoryImage: "/images/headphone1.svg",
-    title: "JBL Live 660NC",
-    price: "$579.99",
-    mainPrice: "$600.00",
-    rating: 4.9,
-  },
-  {
-    categoryImage: "/images/headphone2.svg",
-    title: "Airpods Max",
-    price: "$579.99",
-    mainPrice: "$600.00",
-    rating: 4.9,
-  },
-  {
-    categoryImage: "/images/headphone1.svg",
-    title: "JBL Live 660NC",
-    price: "$579.99",
-    mainPrice: "$600.00",
-    rating: 4.9,
-  },
-  {
-    categoryImage: "/images/headphone2.svg",
-    title: "Airpods Max",
-    price: "$579.99",
-    mainPrice: "$600.00",
-    rating: 4.9,
-  },
-  {
-    categoryImage: "/images/headphone1.svg",
-    title: "JBL Live 660NC",
-    price: "$579.99",
-    mainPrice: "$600.00",
-    rating: 4.9,
-  },
-  {
-    categoryImage: "/images/headphone2.svg",
-    title: "Airpods Max",
-    price: "$579.99",
-    mainPrice: "$600.00",
-    rating: 4.9,
-  },
-];
-
 export const brands = [
   {
     brandsImage: "/images/apple.svg",
