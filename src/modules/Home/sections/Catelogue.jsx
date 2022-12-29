@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { catelogue } from "../../../shared/config/constants";
+
 import CatelogueCard from "../partials/CatelogueCard";
 
 const Catelog = () => {
@@ -64,7 +66,11 @@ const Catelog = () => {
           Filters
         </button>
       </div>
-      <CatelogueCard />
+      <div className="flex flex-wrap justify-between items-center mt-[100px]">
+        {catelogue?.map((data, index) => (
+          <CatelogueCard {...data} index={index} key={index} />
+        ))}
+      </div>
     </div>
   );
 };
