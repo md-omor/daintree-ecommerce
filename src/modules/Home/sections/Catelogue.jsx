@@ -19,7 +19,7 @@ const Catelog = () => {
         Browse through our product catalogue and get the best value for your
         money
       </p>
-      <div className="flex justify-between items-center mt-[100px]">
+      <div className=" justify-between items-center mt-[50px] lg:gap-0 gap-[15px]  overflow-y-scroll lg:mr-0  sm:mr-[calc(768px-100vw)] lg:overflow-hidden overflow-hidden flex space-x-7 overflow-x-scroll scrollbar-hide">
         <button
           className={`transition-all duration-300 ease-in-out text-base px-7 py-[10px] rounded-[10px] font-semibold ${
             active === 1 ? "bg-[#1E1E1E] text-white" : "bg-none text-[#53616E]"
@@ -66,7 +66,7 @@ const Catelog = () => {
           Filters
         </button>
       </div>
-      <div className="flex flex-wrap justify-between items-center mt-[100px]">
+      <div className="flex flex-wrap md:justify-between justify-center items-center mt-[100px]">
         {catelogue?.map((data, index) => (
           <CatelogueCard {...data} index={index} key={index} />
         ))}
