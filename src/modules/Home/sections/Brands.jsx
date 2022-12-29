@@ -11,7 +11,7 @@ const Brands = () => {
         Browse through our product catalogue and get the best value for your
         money
       </p>
-      <div className="flex justify-between flex-wrap mt-[100px] items-center">
+      <div className="flex md:justify-between justify-center flex-wrap mt-[100px] items-center">
         {brands?.map(({ brandsImage }, index) => (
           <div className="bg-[#1E1E1E] w-[300px] h-[150px] rounded-[10px] flex items-center justify-center mb-[50px]">
             <img src={brandsImage} alt="brandsImage" />
