@@ -12,9 +12,9 @@ const Category = () => {
         money
       </p>
 
-      <div className="flex justify-between items-center mt-[100px]">
+      <div className="flex md:justify-between justify-center items-center mt-[100px] flex-wrap">
         {category?.map(({ categoryImage, title }, index) => (
-          <div className="relative" key={index}>
+          <div className="relative mb-5" key={index}>
             <h1 className="text-xl text-white absolute top-5 w-full text-center font-black">
               {title}
             </h1>
