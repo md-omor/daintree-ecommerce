@@ -13,8 +13,8 @@ const Footer = () => {
     <>
       <div className="-z-5">
         <div className="px-10 py-[100px] md:container mx-auto  -z-50">
-          <div className="flex flex-wrap justify-evenly items-start h-full">
-            <div className="flex flex-col mr-[70px]">
+          <div className="flex gap-5 flex-wrap md:justify-evenly justify-between items-start h-full">
+            <div className="flex flex-col">
               <h2 className="font-medium text-lg text-[#1E1E1E] mb-10">
                 Partners
               </h2>
@@ -35,7 +35,7 @@ const Footer = () => {
                 <a href="#faq"> Collaborations</a>
               </span>
             </div>
-            <div className="flex flex-col mr-[70px]">
+            <div className="flex flex-col ">
               <h2 className="font-medium text-lg text-[#1E1E1E] mb-10">
                 Payment
               </h2>
@@ -57,7 +57,7 @@ const Footer = () => {
               </span>
             </div>
 
-            <div className="flex flex-col mr-[70px]">
+            <div className="flex flex-col ">
               <h2 className="font-medium text-lg text-[#1E1E1E] mb-10">
                 Buying
               </h2>
@@ -79,7 +79,7 @@ const Footer = () => {
               </span>
             </div>
 
-            <div className=" flex flex-col mr-[70px]">
+            <div className=" flex flex-col ">
               <h2 className="font-medium text-lg text-[#1E1E1E] mb-10">
                 Resources
               </h2>
@@ -97,7 +97,7 @@ const Footer = () => {
               </span>
             </div>
 
-            <div className=" flex-col lg:mt-0 xl:mt-0 mt-[20px] hidden md:flex">
+            <div className=" flex flex-col ">
               <h2 className="font-medium text-lg text-[#1E1E1E] mb-10">
                 About
               </h2>
