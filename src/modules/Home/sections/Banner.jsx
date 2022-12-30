@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="md:container mx-auto flex md:flex-nowrap flex-wrap items-start justify-between pl-9 pr-8 w-full">
+    <div className="md:container mx-auto flex md:flex-nowrap flex-wrap items-start justify-between md:pl-9 md:pr-8 px-6 w-full">
       <div className="mt-[90px]">
         <div className="flex gap-2">
           <h1 className="text-[#53616E] text-base font-black">
@@ -31,13 +31,13 @@ const Banner = () => {
           />
           <button
             type="submit"
-            class="text-white absolute right-0 bottom-0 bg-[#1E1E1E] w-[80px] md:w-[165px] h-[65px] rounded-[0px_10px_10px_0px] font-bold text-xl px-4 py-2 "
+            class="text-white absolute right-0 bottom-0 bg-[#1E1E1E] w-[132px] md:w-[165px] h-[65px] rounded-[0px_10px_10px_0px] font-bold text-xl px-4 py-2 "
           >
             Search
           </button>
         </div>
 
-        <div className="flex gap-[90px] mt-[77px]">
+        <div className="flex gap-[90px] mt-9 md:mt-[77px]">
           <div className="flex flex-col">
             <h1 className="text-[#1E1E1E] text-3xl mb-5 font-black">10M+</h1>
             <p className="text-[#53616E] text-xl font-black">
@@ -50,7 +50,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="md:w-[530px] md:h-[755px] w-full h-full">
+      <div className="md:w-[530px] md:h-[755px] w-full h-full md:mt-0 mt-[100px]">
         <img
           src="/images/bannerImage.svg"
           alt="banner"
