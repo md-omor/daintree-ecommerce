@@ -11,8 +11,12 @@ const Header = () => {
       <div className="mx-auto md:container flex items-center justify-between flex-wrap lg:flex-nowrap px-10">
         <div className="flex items-center justify-between lg:w-auto w-full lg:border-b-0  ">
           <Link to="/">
-            <div className="flex items-center flex-shrink-0  mr-16 cursor-pointer">
-              <img src="/images/DAINTREE.svg" alt="logo" />
+            <div className="flex items-center flex-shrink-0 w-[145px] mr-16 cursor-pointer">
+              <img
+                src="/images/DAINTREE.svg"
+                alt="logo"
+                className="w-full h-full"
+              />
             </div>
           </Link>
 
