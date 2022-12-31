@@ -10,28 +10,28 @@ const ProductSlider = () => {
           <img
             src="/images/product1.svg"
             alt="headphone"
-            className="!w-[550px] bg-[#F5F5F7] rounded-xl "
+            className="md:!w-[550px] !w-full bg-[#F5F5F7] rounded-xl "
           />
         </div>
         <div>
           <img
             src="/images/product2.svg"
             alt="headphone"
-            className="!w-[550px] bg-[#F5F5F7] rounded-xl "
+            className="md:!w-[550px] !w-full bg-[#F5F5F7] rounded-xl "
           />
         </div>
         <div>
           <img
             src="/images/product3.svg"
             alt="headphone"
-            className="!w-[550px] bg-[#F5F5F7] rounded-xl "
+            className="md:!w-[550px] !w-full bg-[#F5F5F7] rounded-xl "
           />
         </div>
         <div>
           <img
             src="/images/product4.svg"
             alt="headphone"
-            className="!w-[550px] bg-[#F5F5F7] rounded-xl "
+            className="md:!w-[550px] !w-full bg-[#F5F5F7] rounded-xl "
           />
         </div>
       </Carousel>
