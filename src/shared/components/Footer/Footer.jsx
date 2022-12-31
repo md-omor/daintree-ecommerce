@@ -97,7 +97,7 @@ const Footer = () => {
               </span>
             </div>
 
-            <div className=" flex flex-col ">
+            <div className="flex flex-col">
               <h2 className="font-medium text-lg text-[#1E1E1E] mb-10">
                 About
               </h2>
@@ -119,7 +119,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div class="w-full px-3 lg:px-20 ">
+      <div class="w-full px-3 lg:px-20 mb-6 md:mb-0 ">
         <div className="container mx-auto pt-8 pb-[35px]">
           <h2 className="font-medium text-base text-center text-[#1E1E1E]">
             © {year} Daintree Inc, All rights reserved.
