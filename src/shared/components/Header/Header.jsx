@@ -8,7 +8,7 @@ const Header = () => {
 
   return (
     <div className="relative bg-white py-10 border-b border-[#CFDADD]">
-      <div className="mx-auto md:container flex items-center justify-between flex-wrap lg:flex-nowrap px-10">
+      <div className="mx-auto md:container flex items-center justify-between flex-wrap lg:flex-nowrap px-10 !pl-8">
         <div className="flex items-center justify-between lg:w-auto w-full lg:border-b-0  ">
           <Link to="/">
             <div className="flex items-center flex-shrink-0 w-[145px] mr-16 cursor-pointer">
