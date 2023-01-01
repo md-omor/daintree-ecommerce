@@ -28,6 +28,12 @@
   width: 640px !important;
 }
 
+@media only screen and (min-width: 600px) {
+  .carousel-root {
+    width: 640px !important;
+  }
+}
+
 .thumbs {
   display: flex;
   justify-content: center;
