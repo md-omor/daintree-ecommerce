@@ -37,9 +37,9 @@ module.exports = {
     extend: {
       fontFamily: {
         black: "GreycliffCF_BLACK",
-        medium: "CIRCULAR_STD_MEDIUM",
+        medium: "GreycliffCF_MEDIUM",
         semibold: "GreycliffCF_SEMIBOLD",
-        book: "CIRCULAR_STD_BOOK",
+        normal: "GreycliffCF_NORMAL",
         bold: "GreycliffCF_BOLD",
         jost: ["Jost", "sans-serif"],
         publicSans: ["Public Sans", "sans-serif"],
