@@ -39,7 +39,7 @@ const FullDetails = ({
       </h1>
       <div className="flex gap-5">
         <div className="">
-          <img src="/images/stars.svg" alt="star" />
+          <img src="/images/Stars.svg" alt="star" />
         </div>
         <div className="flex gap-1">
           <h3 className="text-[#1E1E1E] font-semibold text-sm ">{ratings}</h3>
